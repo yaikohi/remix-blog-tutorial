@@ -1,6 +1,6 @@
 # Finished product from the remixjs tutorial
 
-Source: https://remix.run/docs/en/v1/tutorials/blog#nested-routing
+Source: https://remix.run/docs/en/v1/tutorials/blog
 
 ## Todo
 
