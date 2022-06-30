@@ -1,3 +1,14 @@
+# Finished product from the remixjs tutorial
+
+Source: https://remix.run/docs/en/v1/tutorials/blog#nested-routing
+
+## Todo
+
+I still have this error
+`'seed.ts' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.ts(1208)`
+
+from typescript and prisma that I'd like to fix 
+
 # Remix Indie Stack
 
 ![The Remix Indie Stack](https://repository-images.githubusercontent.com/465928257/a241fa49-bd4d-485a-a2a5-5cb8e4ee0abf)
