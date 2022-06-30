@@ -25,7 +25,7 @@ export default function PostAdmin() {
                         {posts.map((post) => (
                             <li key={post.slug}>
                                 <Link
-                                    to={`../posts/${post.slug}`}
+                                    to={`${post.slug}`}
                                     className="text-blue-600 underline"
                                 >
                                     {post.title}

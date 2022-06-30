@@ -18,15 +18,15 @@ export const loader = async () => {
 export default function Posts() {
     const { posts } = useLoaderData() as LoaderData;
     return (
-        <main>
-            <h1>Posts</h1>
-            <Link to="admin" className="underline text-slate-600 hover:text-yellow-700">Admin</Link>
-            <ul>
+        <main className="p-8 mr-auto  bg-slate-100">
+            <h1 className="py-8 text-4xl">Posts</h1>
+            <Link to="admin" className="p-2 text-xl text-blue-800 bg-blue-700 bg-opacity-5 rounded-xl hover:underline hover:text-yellow-700">Admin</Link>
+            <ul className="my-8 border-2 ">
                 {posts.map((post) => (
-                    <li key={post.slug}>
+                    <li key={post.slug} className="py-2">
                         <Link
                             to={post.slug}
-                            className="text-blue-600 underline"
+                            className="text-blue-800 hover:underline hover:text-yellow-700"
                         >
                             {post.title}
                         </Link>
